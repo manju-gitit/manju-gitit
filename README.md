@@ -3,7 +3,7 @@ This respository is for all the code developed in assignments for MITxPro MERN P
 <h1>Part 1: Web Development with JavaScript </h1> 
 In part one of the course, you will develop foundational skills in web development with JavaScript, HTML, and CSS.  
 
-<h2>Part 1 : Assignments</h2>
+<h2>Coding Assignments</h2>
 <ul>
   <li><a href="https://github.com/manju-gitit/manju-gitit.github.io/tree/main/simulation">Simulation</a></li>  
   <li><a href="https://github.com/manju-gitit/manju-gitit.github.io/tree/main/RandomWalk">Random Walk</a></li>
