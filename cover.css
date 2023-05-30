@@ -1,0 +1,172 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color:rgb(63, 68, 112);
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: black;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgb(216, 237, 185);
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(216, 237, 185);
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  font-family: 'Courier New', Courier, monospace;
+}
+.home {
+  background: url('white-technology-background_23-2148390327.jpg') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.home img{
+	width: 25%;
+	border-radius: 40%;
+	margin: auto;
+}
+
+.home .li{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*.home #detailbio{
+  font-family: 'Courier New', Courier, monospace;
+}*/
+
+.projects img{
+  width: 90%;
+	margin: auto;
+}
+
+.projects .cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 10px;
+	margin: 5%;
+  font-family: 'Courier New', Courier, monospace;
+}
+.projects h5{
+  font-weight: bold;
+}
+
+.contact {
+  background: url('white-technology-background_23-2148390327.jpg') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.contact img{
+  width: 1000px;
+  height:250px;
+	margin: auto;
+}
+
+.contact img{
+  width: 100%;
+  height: 50%;
+	margin: auto;
+}
+.cover-container {
+  max-width: 100em;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+
+.fa-linkedin,
+.fa-github {
+  background-color: #0073a4;
+}
+.fa-linkedin:hover,
+.fa-github:hover{
+  background-color: grey;
+}
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
