@@ -1,6 +1,9 @@
 
 <h1> Real Time Bus Tracker</h1>
  <p>Real time Bus tracker app, shows stops between MIT & Harvard in Boston Area</p>
+ <p>
+  <img src="./images/bus-tracker-with-google-maps.JPG" width="350" height="200">
+ </p>
 <h2>Improvements included were:</h2>
 <ul>
   <li>Added a ployline highlighting the bus route</li>
